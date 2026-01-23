@@ -822,4 +822,10 @@ if it's not present, don't show loader */
 		opacity: 0;
 		-moz-transform: translateY(97px);
 	}
+
+}
+
+/* FIX GITHUB PAGES */
+.se-pre-con {
+  display: none !important;
 }
