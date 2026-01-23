@@ -1,0 +1,325 @@
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+	.team img {
+    height: 500px;
+ }
+ .teaminfo {
+    padding: 95px 50px 0;
+ }
+ .gallerytitle {
+    min-height: 200px;
+    padding: 66px 0 0 0;
+}
+.width5 img {
+    width: 100%;
+    height: 200px;
+}
+.imgDescription {
+    padding: 55px 0;
+}
+.imgDescription a i {
+    margin: 0 10px;
+}
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+	.abttitledata {
+    padding: 70px 15px 10px;
+	}
+	.imgDescription2 {
+    padding: 20px 0;
+	}
+	
+
+.imgDescription2 a i {
+    margin: 0 7px;
+}
+p.arrowleftside {
+    left: 0px;
+}
+.team {
+    height: 330px;
+}
+.titleteam {
+    padding: 116px 0;
+    min-height: 334px;
+}
+.teaminfo {
+    padding: 10px 15px 0;
+    min-height: 330px;
+ }
+ .teaminfo h3 {
+    margin-bottom: 10px;
+}
+.teaminfo p {
+    margin-bottom: 15px;
+}
+.teaminfo i {
+    margin-right: 20px;
+    font-size: 31px;
+ }
+ .newletter {
+    min-height: 330px;
+    padding: 79px 30px 0;
+}
+.team img {
+    height: 330px;
+ }
+ .gallerytitle {
+    min-height: 200px;
+    padding: 66px 0 0 0;
+}
+.width5 img {
+    width: 100%;
+    height: 200px;
+}
+.imgDescription {
+    padding: 55px 0;
+}
+.imgDescription a i {
+    margin: 0 10px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.logo, .logo-f {
+    float: left;
+    margin: 0 20px;
+}
+.banner {
+    min-height: 380px;
+}
+.insideimg {
+    padding: 100px 0;
+}
+.abtleft {
+    width: 100%;
+}
+.abttitledata {
+    max-width: 100%;
+    width: 100%;
+    padding: 50px;
+}
+.width20 {
+    width: 33.33%;
+}
+p.arrowleftside {
+    left: 0;
+}
+.testimonials {
+    padding: 55px 0 55px;
+}
+.team {
+    width: 100%;
+    height: auto;
+}
+.titleteam {
+    background-position: top center;
+    padding: 70px 0;
+    min-height: auto;
+}
+.team img {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+.teaminfo {
+    padding: 55px 53px;
+    min-height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.teaminfo:after {
+    right: auto;
+    top: auto;
+    margin-top: 0;	
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(204, 200, 182, 0);
+	border-bottom-color: #ccc8b6;
+	border-width: 30px;
+	margin-left: -30px;
+}
+.newletter {
+    min-height: auto;
+    padding: 40px 80px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.gallerytitle {
+    width: 100%;
+    min-height: auto;
+    padding: 40px 0;
+}
+.width5 {
+    width: 33.33%;
+}
+.contact {
+    padding: 50px 0 50px;
+}
+.contact p {
+    margin: 33px 0;
+    font-size: 17px;
+}
+#map-canvas {
+    height: 350px;
+}
+footer {
+    padding: 50px 0;
+}
+.titledata-f {
+    padding-bottom: 35px;
+}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	p.arrowleftside {
+    left: 0;
+}
+ul.leftside, ul.leftside-f {
+    margin-top: 0px;
+    float: none;
+    text-align: center;
+}
+.logo, .logo-f {
+    float: none;
+    margin: 0;
+    text-align: center;
+}
+.logo img, .logo-f img{width:200px; display:block; height:auto; margin:10px auto;}
+.banner {
+    min-height: 215px;
+}
+.insideimg {
+    padding: 45px 0;
+}
+.abtleft {
+    width: 100%;
+}
+.abttitledata {
+    max-width: 100%;
+    width: 100%;
+    padding: 15px;
+}
+.width20 {
+    width: 100%;
+}
+.testimonials {
+    padding: 50px 0;
+}
+.testimonials span {
+    margin: 0;
+}
+
+.testimonials h2 {
+    font-size: 18px;
+}
+.team {
+    width: 100%;
+    height: auto;
+}
+.titleteam {
+    background-position: top center;
+    padding: 70px 0;
+    min-height: auto;
+}
+.team img {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+.teaminfo {
+    padding: 25px 15px;
+    min-height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.teaminfo:after {
+    right: auto;
+    top: auto;
+    margin-top: 0;	
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(204, 200, 182, 0);
+	border-bottom-color: #ccc8b6;
+	border-width: 30px;
+	margin-left: -30px;
+}
+.newletter {
+    min-height: auto;
+    padding: 25px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.teaminfo h3 {
+    margin-bottom: 20px;
+}
+.teaminfo i {
+    margin-right: 22px;
+    font-size: 26px;
+}
+
+.twitter {
+    min-height: auto;
+    padding: 35px 0;
+}
+.gallerytitle {
+    width: 100%;
+    min-height: auto;
+    padding: 40px 0;
+}
+.width5 {
+    width: 100%;
+}
+.contact h2 {
+    font-size: 30px;
+    text-align: center;
+}
+.social {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.social a i {
+    font-size: 30px;
+    margin-right: 17px;
+}
+.contact {
+    padding: 50px 0 50px;
+}
+.contact p {
+    margin: 33px 0;
+    font-size: 17px;
+}
+#map-canvas {
+    height: 350px;
+}
+footer {
+    padding: 50px 0;
+}
+.titledata-f {
+    padding-bottom: 35px;
+}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+}
