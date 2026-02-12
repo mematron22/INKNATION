@@ -30259,3 +30259,9 @@ html {
         vertical-align: middle;
     }
 }
+
+@media only screen and (max-width:575px) {
+    .d-lg-inline-flex {
+        width: 250px;
+    }
+}
