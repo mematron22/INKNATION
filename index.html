@@ -15,8 +15,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=UnifrakturMaguntia&display=swap">
         <script> class="navigator(register)"></script>
     </head>
-    <body>
-        <main role="main">
+    <body class="h-100">
+        <main role="main" data-pg-collapsed>
             <!-- Hero -->
             <!-- End Hero -->
             <!-- Features -->
@@ -32,8 +32,9 @@
             <!-- CTA -->
             <!-- End CTA -->
         </main>
-        <nav class="bg-dark fixed-top navbar navbar-dark navbar-expand-lg position-fixed" data-pgc-define="NANA" data-pg-collapsed data-pgc-define-name="NANA">
-            <div class="container-fluid"><a class="navbar-brand" href="https://www.fullinjektion.art/"><img class="navbar-brand-logo" src="assets/svg/components/icono%20mano.svg" alt="Card image cap" height="40" loading="lazy"></a> 
+        <nav class="bg-dark fixed-top navbar navbar-dark navbar-expand-lg position-sticky sticky-top" data-pgc-define="NANA" data-pgc-define-name="NANA" data-pg-collapsed>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://www.fullinjektion.art/"><img class="navbar-brand-logo" src="assets/svg/components/icono%20mano.svg" alt="Card image cap" height="40" loading="lazy"></a> 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler54" aria-controls="" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> 
                 </button>
                 <div class="collapse navbar-collapse" id="navbarToggler54">
@@ -54,21 +55,28 @@
                 </div>
             </div>             
         </nav>
-        <section style="height: 500px;" class="bg-dark bg-gradient">
-            <div class="row">
-                <div class="w-100" style="height: 250px; padding: 53px;">
-                    <img src="assets/LOGO%20FULL.svg" style="box-sizing: content-box; margin: 23px; padding: 16px;" loading="lazy" class="col-lg-7 mb-lg-5 mt-5  offset-lg-0 order-lg-first" sizes="4000px">
+        <section class="bg-dark bg-gradient col-12 vstack" style="vertical-align: middle; box-sizing: content-box;" data-pg-collapsed>
+            <div class="row" style="vertical-align: middle;">
+                <div style="height: 100%; padding: 53px; vertical-align: middle;" class="h-auto">
+                    <img src="assets/LOGO%20FULL.svg" style="box-sizing: content-box; margin: 0; padding: 0;" sizes="4000px,
+(min-width: 992px) 51vw" height="50%" class="align-middle bottom-50 d-inline-flex d-lg-inline-flex end-50 mh-100 start-50 top-50 vstack">
+                    <div class="d-inline-flex flex-wrap float-end mt-4 " data-pg-collapsed> <a href="#" aria-label="facebook" class="lh-1 p-1"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" class="text-light"> 
+                                <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/> 
+                            </svg> </a>                          <a href="#" aria-label="instagram" class="lh-1 p-1 text-white"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" data-pg-collapsed="false"> 
+                                <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/> 
+                            </svg> </a>                                                   
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="bg-dark pb-5 pt-5" data-pg-collapsed> 
+        <section class="bg-dark " data-pg-collapsed> 
             <div class="container pb-5 pt-5"> 
                 <div class="align-items-center mb-3 row">
                     <div class="col-lg-12 text-white">
                         <h2 class="h6 mb-1">Services</h2> 
                         <h3 class="display-4 fw-light mb-1 text-center text-white" style="font-family: 'UnifrakturMaguntia', cursive;">Estudio de Tatuaje y Arte</h3>
                         <p class="fw-light text-center text-white">Bienvenido, en Full Injektion nuestra misión es proporcionar un servicio completo en la realizacion de tatuajes permanentes.</p>
-                        <p class="fw-light text-center text-white">&quot;En Full Injektion, nuestra misión es brindarte una experiencia total en cada pieza.</p>
+                        <p class="fw-light text-center text-white">Tatau, es el termino maori que significa &quot;inyectar la tinta&quot;, de hecho, todas las culturas de la historia adoptaron el tatuaje como un ritual con diferentes significados, haciendolo parte de su cosmovision, desde el plebeyo hasta el Tlatoani, se le asignaba un status, o incluso un castigo al portador.</p>
                         <p class="fw-light text-center text-white"><span style="color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)); background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)); font-family: var(--bs-body-font-family); font-size: var(--bs-body-font-size); font-weight: var(--bs-body-font-weight); text-align: var(--bs-body-text-align);">Entendemos que el arte de inyectar la tinta con éxito implica conocer a fondo la anatomía de la piel, priorizar materiales de calidad y contar con un pulso experto para minimizar las molestias.</span></p>
                         <p class="fw-light text-center text-white"><span style="color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)); background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)); font-family: var(--bs-body-font-family); font-size: var(--bs-body-font-size); font-weight: var(--bs-body-font-weight); text-align: var(--bs-body-text-align);">Por eso, combinamos tecnología de vanguardia con el talento de un artista experimentado para lograr un resultado completo e impecable.</span></p>
                         <p class="fw-light text-center text-white"><span style="color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)); background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)); font-family: var(--bs-body-font-family); font-size: var(--bs-body-font-size);">Tu piel merece excelencia; cuéntanos tu proyecto en nuestra sección de comentarios.</span></p>
@@ -241,8 +249,7 @@
                             <p class="text-black-50">Suele confundirse la técnica con el estilo : La técnica se rerefiere a la ejecucion, el estilo se refiere al sello que el artista plasma en la piel.</p>
                             <p class="text-black-50">En resumen, en el tatuaje se combina tecnica y estilo para crear armonia en el resultado final.</p>
                             <p class="text-black-50">Quisiera agregar la relevancia que tienen las IA´s en la actualidad, combinando su uso con nuestra creatividad, se obtienen obras de gran calidad.&nbsp;</p>
-                        </div>
-                        <a class="btn btn-danger btn-pointer" href="./page-customer-story.html">SEguir leyendo</a>
+                        </div><a class="btn btn-danger btn-pointer" href="./page-customer-story.html">SEguir leyendo</a>
                     </div>
                     <!-- End Col -->
                 </div>
@@ -257,7 +264,7 @@
         <section class="bg-light d-flex">
             <div data-empty-placeholder class="align-items-baseline"></div>
             <div class="w-100" data-pg-collapsed>
-                <div class="row">
+                <div class="row" data-pg-collapsed>
                     <div class="align-self-md-stretch card-group d-flex d-md-flex d-sm-flex flex-column flex-md-fill flex-md-grow-1 flex-md-nowrap flex-md-row flex-nowrap flex-sm-column flex-sm-nowrap"> 
                         <div class="card"> 
                             <img class="card-img-top d-flex d-md-flex d-sm-flex" src="assets/img/500x650/10.jpg" alt="Card image cap" loading="lazy"> 
@@ -332,38 +339,32 @@
             </div>
             <div data-empty-placeholder></div>
         </section>
-        <section class="bg-light h-25 mh-100" data-pg-collapsed data-pgc-define="footer" data-pgc-define-name="pie_pag" data-pgc-define-description="este es el pie de pagina">
-            <div class="container" data-pg-collapsed>
-                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                    <div class="align-items-center col-7 col-md-4 col-sm-8 d-flex">
-                        <img id="bootstrap" viewBox="0 0 118 94" width="30" height="24" data-pg-collapsed="false" src="assets/svg/components/icono%20negro.svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z">
-</path>
-                        <span class="text-muted" style="margin-bottom: 25px; margin-left: 16px;">&copy; 2026&nbsp; &nbsp;Full Injektion&nbsp;&nbsp;</span>
+        <footer class="bg-dark pb-3 pt-3 small text-secondary" data-pg-collapsed>
+            <div class="container">
+                <div class="align-items-center row">
+                    <div class="pb-2 pt-2 text-white">
+                        <p class="mb-0 text-white">&copy; 2026 Hecho por Full Injektion/Diseño web y contenido de marca/ Derechos Reservados/</p>
+                        <p class="mb-0 text-white"></p>
+                        <p class="mb-0 text-white"></p>
                     </div>
-                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                        <li class="ms-3">
-                            <a class="text-muted" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16" data-pg-collapsed id="twitter">
-                                    <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
-                                </svg> </a>
-                        </li>
-                        <li class="ms-3">
-                            <a class="text-muted" href="#"> <svg id="instagram" viewBox="0 0 16 16" width="24" height="24">
-                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
-</path>
-                                </svg> </a>
-                        </li>
-                        <li class="ms-3">
-                            <a class="text-muted" href="https://www.facebook.com/profile.php?id=61583586065532" target="_parent"> <svg id="facebook" viewBox="0 0 16 16" width="24" height="24">
-                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z">
-</path>
-                                </svg> </a>
-                        </li>
-                    </ul>
-                </footer>
+                    <div class="col-md-auto pb-2 pt-2 text-white">
+                        <div class="d-flex d-lg-flex flex-row-reverse flex-wrap gap-2 gap-lg-2 gx-lg-1 me-4 ms-lg-5 text-end text-lg-end text-light"> <a href="#" class="p-1 text-white" aria-label="facebook"> <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"> 
+                                    <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/> 
+                                </svg> </a> <a href="#" class="p-1 text-secondary" aria-label="twitter"> <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" class="text-light"> 
+                                    <path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z"/> 
+                                </svg> </a> <a href="#" class="p-1 text-secondary" aria-label="instagram"> <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" class="text-white"> 
+                                    <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/> 
+                                </svg> </a> <a href="#" class="p-1 text-secondary" aria-label="linkedin"> <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" class="text-white"> 
+                                    <path d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z"/> 
+                                </svg> </a> <a href="#" class="p-1 text-secondary" aria-label="youtube"> <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" class="text-white"> 
+                                    <path d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z"/> 
+                                </svg> </a> 
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
-        <a href="https://wa.me/526625301929" style="background-repeat: no-repeat; background-position: center center; background-size: cover; font-size: 52px;" class="h-auto link-primary"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" data-pg-collapsed class="bg-white fixed-bottom position-fixed rounded rounded-4 text-danger" style="bottom: 20px; left: 20px; z-index: 10000;"> 
+        </footer>
+        <a href="https://wa.me/526625301929" style="background-repeat: no-repeat; background-position: center center; background-size: cover; font-size: 52px;" class="link-primary"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" data-pg-collapsed class="bg-white fixed-bottom position-fixed rounded rounded-4 text-danger" style="bottom: 20px; left: 20px; z-index: 10000;"> 
                 <g> 
                     <path fill="none" d="M0 0h24v24H0z"/> 
                     <path fill-rule="nonzero" d="M2.004 22l1.352-4.968A9.954 9.954 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.954 9.954 0 0 1-5.03-1.355L2.004 22zM8.391 7.308a.961.961 0 0 0-.371.1 1.293 1.293 0 0 0-.294.228c-.12.113-.188.211-.261.306A2.729 2.729 0 0 0 6.9 9.62c.002.49.13.967.33 1.413.409.902 1.082 1.857 1.971 2.742.214.213.423.427.648.626a9.448 9.448 0 0 0 3.84 2.046l.569.087c.185.01.37-.004.556-.013a1.99 1.99 0 0 0 .833-.231c.166-.088.244-.132.383-.22 0 0 .043-.028.125-.09.135-.1.218-.171.33-.288.083-.086.155-.187.21-.302.078-.163.156-.474.188-.733.024-.198.017-.306.014-.373-.004-.107-.093-.218-.19-.265l-.582-.261s-.87-.379-1.401-.621a.498.498 0 0 0-.177-.041.482.482 0 0 0-.378.127v-.002c-.005 0-.072.057-.795.933a.35.35 0 0 1-.368.13 1.416 1.416 0 0 1-.191-.066c-.124-.052-.167-.072-.252-.109l-.005-.002a6.01 6.01 0 0 1-1.57-1c-.126-.11-.243-.23-.363-.346a6.296 6.296 0 0 1-1.02-1.268l-.059-.095a.923.923 0 0 1-.102-.205c-.038-.147.061-.265.061-.265s.243-.266.356-.41a4.38 4.38 0 0 0 .263-.373c.118-.19.155-.385.093-.536-.28-.684-.57-1.365-.868-2.041-.059-.134-.234-.23-.393-.249-.054-.006-.108-.012-.162-.016a3.385 3.385 0 0 0-.403.004z"/> 
@@ -371,5 +372,11 @@
             </svg></a>
         <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
         <script src="assets/js/theme.min.js"></script>
+        <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
     </body>
 </html>
